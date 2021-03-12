@@ -29,10 +29,10 @@ project "yaml-cpp"
 		cppdialect "C++17"
 		staticruntime "On"
 
-	filter "configuration:Debug"
+	filter "configurations:Debug"
 		runtime "Debug"
 		symbols "on"
 
-	filter "configuration:Release"
+	filter "configurations:Release"
 		runtime "Release"
 		optimize "on"
